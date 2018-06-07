@@ -1,0 +1,108 @@
+/**{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+    color: #2E2E2E;
+}
+div#categorias{
+    float: left;
+    position: absolute;
+    width: 170px;
+    height: 100%;
+    background-color:#2E64FE; 
+}
+div#cate-principal{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-image: url(img/categorias.png);
+}*/
+.nombret{
+    background-color:GGGG,FMFGMGKMRFSKMGHUJGUKVGVGFGHGFTFRDº
+}
+#mySidenav a {
+    
+    position: absolute; /* Position them relative to the browser window */
+    left: -15px; /* Position them outside of the screen */
+    transition: 0.5s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    padding-top: 7px;
+    width: 150px; /* Set a specific width */
+    height:40px;
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+    
+}
+
+/* The about link: 20px from the top with a green background */
+#promociones {
+    top: 60px;
+    background-color: #36b8f4;
+}
+#celulares {
+    top: 101px;
+    background-color: #36b8f4;
+}
+#tvydvd{
+    top: 142px;
+    background-color: #36b8f4;
+}
+
+#computacion {
+    top: 183px;
+    background-color: #36b8f4;
+}
+#videojuegos {
+    top: 224px;
+    background-color:  #36b8f4;
+}
+#hogar {
+    top: 265px;
+    background-color: #36b8f4;
+}
+#moda {
+    top: 306px;
+    background-color: #36b8f4;
+}
+#belleza {
+    top: 347px;
+    background-color: #36b8f4;
+}
+
+#salud {
+    top: 388px;
+    background-color: #36b8f4; 
+}
+#juguetes{
+    top: 429px;
+    background-color: #36b8f4;
+}
+#bebes {
+    top: 470px;
+    background-color: #36b8f4;
+}
+#deportes {
+    top: 511px;
+    background-color: #36b8f4; 
+}
+#electrodomesticos {
+    top: 552px;
+    background-color: #36b8f4; 
+}
+/*imagenes*/
+h2,h3{
+    text-align: center;
+}
+.imgcels{
+    top: 50px;
+    left: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

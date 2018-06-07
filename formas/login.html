@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+    <title>Login Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        form { margin: 0px 10px; }
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.container { max-width: 360px; }
+
+.divider {
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.divider hr {
+  margin: 7px 0px;
+  width: 35%;
+}
+
+.left { float: left; }
+
+.right { float: right; }
+
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+		<div class="row">
+			<div class="panel panel-primary">
+				<div class="panel-body">
+					<form method="POST" action="#" role="form">
+						<div class="form-group">
+							<h2>Login</h2>
+						</div>
+						<div class="form-group">
+							<strong>Email o celular</strong>
+							<input id="signinEmail" type="email" maxlength="50" class="form-control">
+						</div>
+						<div class="form-group">
+							<strong>Contraseña</strong>
+							<span class="right"><a href="#">Olvidé mi contraseña</a></span>
+							<input id="signinPassword" type="password" maxlength="25" class="form-control">
+						</div>
+						<div class="form-group" style="padding-top: 12px;">
+							<button id="signinSubmit" type="submit" class="btn btn-success btn-block">Sign in</button>
+						</div>
+						<div class="form-group divider">
+							<hr class="left"><small>¿Nuevo en la tiendita?</small><hr class="right">
+						</div>
+						<div class="form-group">
+							<button id="signupSubmit" type="submit" class="btn btn-info btn-block">Crea tu cuenta</button>
+						</div>
+						<p class="form-group">Al hacer sign in estás aceptando nuestros: <a href="#">Terminos de uso</a> y nuestra <a href="#">Políticas de privacidad</a>.</p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+Codigo de Karen
+
+import React, { Component } from 'react';
+import Search from '../search/search.js';
+import './navbar.css';
+
+class Navbar extends Component {
+  render() {
+    return (
+
+<div className="Navbar">
+
+  <div className="container-fluid">
+    <div className="row"> 
+      <div className="col-md-12">
+      <nav className="navbar navbar-light bg-light">
+        <a className="navbar-brand" href="">
+        <img src="img/navbargrafico.jpg" width="1000" height="30" className="d-inline-block align-top" alt=""/>
+      </a>
+      </nav>
+    </div>
+  </div>
+
+
+  <div className="row"> 
+    <div className="col-md-2">
+      <a className="navbar-brand" href="index.html">La Tiendita...</a>
+      <img src="img/anasom.png" width="30" height="30" className="d-inline-block align-top" alt=""/> 
+      <button className="navbar-toggler navbar-toggler-right" type="button"           data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+      <Search />
+
+    <div className="col-md-2">
+   
+      <li className="nav-item">
+            <a className="nav-link" href="./formas/userprofile.html">Configuración</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="./formas/login.html">Ingresar</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="./formas/register.html">Registrar</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="./formas/cart.html">Orders</a>
+          </li>
+
+
+    </div>
+  </div>
+</div>
+</div>
+     
+  );
+  }
+}
+export default Navbar;

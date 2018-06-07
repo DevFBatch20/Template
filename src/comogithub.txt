@@ -1,0 +1,80 @@
+➜  anason git:(master) cd ..
+➜  proyectofinal git:(master) git branch dev-movilra
+➜  proyectofinal git:(master) git checkout
+Your branch is up to date with 'origin/master'.
+➜  proyectofinal git:(master) git push
+Everything up-to-date
+➜  proyectofinal git:(master) git push
+Everything up-to-date
+➜  proyectofinal git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   anason/src/navbar/navbar.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  proyectofinal git:(master) ✗ git branch
+  dev-movilra
+* master
+➜  proyectofinal git:(master) ✗ git ckeckout dev-movilra
+git: 'ckeckout' is not a git command. See 'git --help'.
+
+The most similar command is
+	checkout
+➜  proyectofinal git:(master) ✗ git checkout dev-movilra
+M	anason/src/navbar/navbar.js
+Switched to branch 'dev-movilra'
+➜  proyectofinal git:(dev-movilra) ✗ git branch
+* dev-movilra
+  master
+➜  proyectofinal git:(dev-movilra) ✗ git status
+On branch dev-movilra
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   anason/src/navbar/navbar.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  proyectofinal git:(dev-movilra) ✗ git add anason/src/navbar/navbar.js
+➜  proyectofinal git:(dev-movilra) ✗
+➜  proyectofinal git:(dev-movilra) ✗ git status
+On branch dev-movilra
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   anason/src/navbar/navbar.js
+
+➜  proyectofinal git:(dev-movilra) ✗ git commit .m "cambio de titulo La Tiendita... commit de prueba branch"
+error: pathspec '.m' did not match any file(s) known to git.
+error: pathspec 'cambio de titulo La Tiendita... commit de prueba branch' did not match any file(s) known to git.
+➜  proyectofinal git:(dev-movilra) ✗ git commit -m "commit de prueba branch"
+[dev-movilra deca753] commit de prueba branch
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+➜  proyectofinal git:(dev-movilra) git status
+On branch dev-movilra
+nothing to commit, working tree clean
+➜  proyectofinal git:(dev-movilra) git branch -vv
+* dev-movilra deca753 commit de prueba branch
+  master      c4a435b [origin/master] comenzando a hacer componentes
+➜  proyectofinal git:(dev-movilra) git push
+fatal: The current branch dev-movilra has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dev-movilra
+
+➜  proyectofinal git:(dev-movilra) git push --set-upstream origin dev-movilra
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 489 bytes | 489.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/movilra/latiendita.git
+ * [new branch]      dev-movilra -> dev-movilra
+Branch 'dev-movilra' set up to track remote branch 'dev-movilra' from 'origin'.
+➜  proyectofinal git:(dev-movilra)

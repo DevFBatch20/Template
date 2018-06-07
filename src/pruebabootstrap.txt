@@ -1,0 +1,13 @@
+<div className="Navbar">
+
+<div className="container">
+  <div className="row"> 
+      <div className="col-md-6">
+      hola
+      </div>
+      <div className="col-md-6">
+      crayola
+      </div>
+  </div>
+</div>
+</div>
